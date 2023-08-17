@@ -11,7 +11,8 @@
     "parseChanges": "node parseChanges.js",
     "parseChangesSelect": "node parseChangesSelect.js",
     "deprecated": "node deprecated.js",
-    "fetchData": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated"
+    "fetchData": "pnpm changes && pnpm parseChanges && pnpm parseChangesSelect && pnpm deprecated",
+    "fetchWhatsNew": "node whatsnew.js"
   },
   "author": "",
   "license": "ISC",
